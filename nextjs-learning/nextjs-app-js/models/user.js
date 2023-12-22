@@ -1,6 +1,7 @@
-import { Schema, model, models } from "mongoose";
+//import { Schema, model, models } from "mongoose";
+import mongoose from "mongoose";
 
-const UserSchema = new Schema({
+const UserSchema = new mongoose.Schema({
   email: {
     type: String,
     unique: [true, 'Email already exists!'], //print out the string if false
@@ -19,7 +20,7 @@ const UserSchema = new Schema({
 
 //create a new model and assign the model to the "User" variable
 //if "User" model already exists, mongoose assigns that existing model to the "User variable"
-const User = models.User || model("User", UserSchema);
+const User = mongoose.models.User || mongoose.model("User", UserSchema);
 
 export default User;
 

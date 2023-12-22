@@ -1,17 +1,5 @@
-# Update: Dropped
-I can't get this error to go away, it suddently popped up while I started to create an API route to create a new prompt to the database. Since I used next 14 and the tut is next 13, maybe some version mismatchs from other libraries caused it? ¯\_(ツ)_/¯
-
-```
-Uncaught (in promise) TypeError: mongoose__WEBPACK_IMPORTED_MODULE_0__.models is undefined
-```
-
-It points to the User model, which is weird since it worked fine then decided to throw the error later on. This [post](https://stackoverflow.com/questions/74786429/how-do-i-get-rid-of-this-error-when-working-with-mongoose) seems to capture the error similar to what I've encountered.
-
-
-NextJS 13 Tutorial [link](https://www.youtube.com/watch?v=wm5gMKuwSYk&list=PLre0XcSr2JpjC1nMg5xYilsGkV5XpGETq)
-
-
-
+# Finished
+NextJS 14 Tutorial [link](https://www.youtube.com/watch?v=wm5gMKuwSYk&list=PLre0XcSr2JpjC1nMg5xYilsGkV5XpGETq)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

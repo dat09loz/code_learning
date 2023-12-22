@@ -58,7 +58,7 @@ const Nav = () => {
       <div className="sm:hidden flex relative">
         {session?.user ? (// logged in user
           <div className="flex">
-            <Image width={37} height={37} src={session?.user.image} className="rounded-full" alt="profile" onClick={() => {setToggleDropdown(prev => !prev)}}/>
+            <Image width={37} height={37} src={session?.user.image} className="rounded-full" alt="profile" onClick={() => {setToggleDropdown(prev => !prev)}} onBlur={() => setToggleDropdown(prev => !prev)}/>
             {toggleDropdown && ( //dropdown menu
               <div className="dropdown">
                 <Link href='/profile' className="dropdown_link" onClick={() => setToggleDropdown(false)}>

@@ -5,8 +5,6 @@ import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 
 import Form from '@components/Form'
-import { POST } from '@app/api/auth/[...nextauth]/route'
-import { Router } from 'next/router'
 
 const CreatePrompt = () => {
   const router = useRouter();

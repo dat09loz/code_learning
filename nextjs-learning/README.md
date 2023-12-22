@@ -1,5 +1,5 @@
-Everything about nextjs :)
+Everything about nextjs
 
 Course link:
-- Javascript https://www.youtube.com/watch?v=wm5gMKuwSYk
-- Typescript https://www.youtube.com/watch?v=pUNSHPyVryU
+- [Javascript](https://www.youtube.com/watch?v=wm5gMKuwSYk) 
+- [Server Actions, Inifnite Scroll & Framer Motion](https://www.youtube.com/watch?v=FKZAXFjxlJI)
